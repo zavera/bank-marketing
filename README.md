@@ -14,13 +14,13 @@ The campaign's objective is to **maximize the number of true "yes" responses** (
 
 The dataset (`bank.csv`) contains customer demographic, financial, and campaign-related information, including engineered features such as:
 - `log_pdays`, `log_campaign`, `log_previous` (log-transformed for normalization)
-- Job and education dummies
+- High paying job and high education indicators
 - Bank Relationship status indicators
 
 ## Modeling Approach
 
 Several machine learning models were trained and evaluated:
-- **Logistic Regression** (with and without SMOTE)
+- **Logistic Regression** 
 - **Decision Tree**
 - **Support Vector Machine (SVM)**
 - **K-Nearest Neighbors (KNN)**
